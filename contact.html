@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Details</title>
+  </head>
+  <body>
+    <h1>Contact Me @</h1>
+    <p><strong>Name:</strong>Roobini Sivakumar</p>
+    <p><strong>Email id:</strong><a href="roobinisivakumar@gmail.com">roobinisivakumar@gmail.com</a></p>
+    <p><strong>Phone no:</strong>7708902528</p>
+    <p><strong>Linkedin id:</strong><a href="https://www.linkedin.com/in/roobini-sivakumar-036a84177">Linkedin id</a></p>
+    <p><strong>Address:</strong>Bellie Gowder Line,GoodShed,Ootacamund</p>
+  <hr />
+
+
+<h3>Fill the below Form</h3>
+    <form action="mailto:roobinisivakumar@gmail.com" method="post" enctype="text/plain">
+      <label>First Name:</label>
+      <input type="text" name="ypurfirstname" value="" />
+      <label>Last Name:</label>
+      <input type="text" name="yourlastname" value=""/><br />
+      <label>Date</label>
+      <input type="date" value=""/><br />
+      <label for="mydept">Select your Department:</label>
+      <input list="departments" />
+      <datalist id="departments">
+        <option value="AI">
+        <option value="BME">
+        <option value="CSE">
+        <option value="ECE">
+        <option value="EEE">
+        <option value="FT">
+      </datalist><br />
+      <label for="myclass-select">Choose Your Class:</label>
+      <select name="class">
+        <option value="">Select an option</option>
+        <option value="CSE A">CSE A</option>
+        <option value="CSE B">CSE B</option>
+        <option value="CSE C">CSE C</option>
+      </select><br />
+      <label>Your Email:</label>
+      <input type="email" /><br />
+      <label>Enter Your Password:</label>
+      <input type="password" /><br />
+      <textarea name="yourmessage" rows="5" cols="10" ></textarea><br />
+      <input type="submit" />
+    </form>
+
+  </body>
+</html>
